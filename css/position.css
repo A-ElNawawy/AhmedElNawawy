@@ -61,6 +61,9 @@ header > *:not(h6){
 
 .opinions .op-content .op-co-field{
     display: flex;
+    justify-content: center;
+}
+.opinions .op-content .op-co-field:nth-of-type(2){
     justify-content: flex-end;
 }
 .opinions .op-content .op-co-field h6{

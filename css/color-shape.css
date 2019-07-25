@@ -126,9 +126,6 @@ p:first-letter{
 .header .header-side-label{
     background-color: transparent;
 }
-.header .header-side-label .img{
-    display:hidden;
-}
 .header .header-side-label h2{
 }
 .header .header-side-label p{

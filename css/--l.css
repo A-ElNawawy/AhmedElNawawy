@@ -220,7 +220,7 @@
         flex-basis: 75%;
         display: flex;
         flex-wrap: wrap;
-        align-content: flex-end;
+        align-content: space-evenly;
     }
     .opinions .separator .op-content .op-co-field{
         flex-basis: 100%;
@@ -348,11 +348,9 @@
     .pushers{}
     .pushers span{
         text-transform:capitalize;
-        padding-right:calc(var(--xs)*.04);
     }
     .pushers strong{
         text-transform:capitalize;
-        padding-left:calc(var(--xs)*.04);
     }
     .pushers .pu-side-label{
         display: flex;

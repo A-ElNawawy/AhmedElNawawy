@@ -243,7 +243,8 @@
         font-size:calc(var(--h3-font)*.6);
     }
     .opinions .op-side-label h2{}
-    .opinions .op-content{}
+    .opinions .op-content{
+    }
     .opinions .op-content p{}
     .opinions .op-content h6{}
 
@@ -337,11 +338,9 @@
     .pushers{}
     .pushers span{
         text-transform:capitalize;
-        padding-right:calc(var(--xs)*.04);
     }
     .pushers strong{
         text-transform:capitalize;
-        padding-left:calc(var(--xs)*.04);
     }
     .pushers .pu-side-label{
         display: flex;
