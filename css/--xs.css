@@ -1,0 +1,544 @@
+                /*=== === === === === --xs Landscape phones and portrait tablets */
+
+                /*=== === === === ===  Defult === === === === === === === ==*/
+@media (min-width: 480px) and (max-width: 736px){
+    .portfolio .po-content{
+        flex-basis: calc(var(--xs)*10);
+    }
+}
+@media (min-width: 737px) and (max-width: 767px){
+    .portfolio .po-content{
+        flex-basis:100%;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px){
+                /*=== === === === === Start Rules === === === === === === ==*/
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container{
+        width: calc(var(--xs)*11);
+    }
+    body > *{
+        width:auto;
+    }
+    body > *:not(footer):not(nav){
+        margin-top: 10px;
+/*
+        display:flex;
+        flex-wrap: wrap;
+*/
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }/*center labels*/
+    h3{
+    }/*side label*/
+    h4{
+    }/*paragragh label*/
+    h6{
+    }/*signature*/
+    p{
+        padding: 0 10px;
+        text-indent:15px;
+        text-align:justify;
+        text-justify:inter-word;
+    }
+    [class*="-side-label"]{
+    }
+    [class*="-content"]{
+        margin-top: 10px;
+    }
+    [class*="-co-field"]{
+        
+    }
+
+                    /*=== === === === === End Rules === === === === === === === */
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start Header === === === === === === =*/
+
+    .header{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .header .separator{
+        align-content: center;
+        height: 100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .header .separator .img{
+        flex-basis: calc(var(--xs)*2);
+        height:calc(var(--xs)*2);
+    }
+    .header .separator header{
+        margin-top:20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header .separator header p{    
+    font-size: calc(var(--p-font)*1.3);
+    }
+
+
+                    /*=== === === === === End Header === === === === === === ===*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start nav === === === === === === === */
+
+    nav{
+        display: block;
+        margin-top: 7px;
+        margin-bottom:12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-basis: 100%;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav ul li{
+        font-size: calc(var(--p-font)*1);
+        margin-top:10px;
+        margin-bottom:10px;
+    }  
+    nav ul li:hover{
+        transform: scale(1.6);
+    }
+        /*will use the following in --xxs size*/
+        /*to adjust text itself*/
+/*        text-align: center;*/
+        
+/*        flex-basis: 260px;*/
+/*        display: flex;*/
+        
+        /*to adjust text related to the -li- fram */
+/*        justify-content: space-evenly;*/
+        
+        /*to adjust text related to the -li- fram */
+/*        align-items: center;*/
+    
+                    /*=== === === === === End nav === === === === === === === ==*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start Serv === === === === === === ===*/
+
+
+
+    .serv{
+    }
+    .serv .separator{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .serv .se-side-label{
+        flex-basis: 100%;
+    }
+    .serv .se-content{
+/*        flex-basis: calc(var(--xs)*6);*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    }
+    .serv .se-content .se-co-field{
+        flex-basis: calc(var(--xs)*6);
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .serv .se-content .se-co-field > div{
+        flex-basis:calc(var(--xs)*2);
+    }
+    .serv .se-content .se-co-field h4{
+        margin:10px 0;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size:calc(var(--h4-font)*1);
+    }
+    .serv .se-content .se-co-field p{
+        text-indent: 0;
+        text-align: center;
+    }
+
+                    /*=== === === === === End Serv === === === === === === === =*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start portfolio === === === === === ==*/
+
+    .portfolio{
+    }
+    .portfolio .separator{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .portfolio .po-side-label{
+        flex-basis: 100%;
+    }
+    .portfolio .po-content{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        
+/*
+        --field-heigh:200px;
+        --field-margin:10px;
+        --x:calc(var(--field-heigh)*2);
+        --y:40px;
+        --z:calc(var(--x)+var(--y));
+        height:var(--z);
+*/
+    }
+    .portfolio .po-content .po-co-field{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        flex-basis:calc(var(--xs)*4);
+        height:calc(var(--xs)*4);
+    }
+
+                    /*=== === === === === End portfolio === === === === === === */
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start Opinions === === === === === ===*/
+
+    .opinions{}
+    .opinions .op-side-label{}
+    .opinions .op-side-label h3:first-of-type{
+        font-size:calc(var(--h3-font)*.4);
+    }
+    .opinions .op-side-label h3:nth-of-type(2){
+        font-size:calc(var(--h3-font)*.6);
+    }
+    .opinions .op-side-label h2{}
+    .opinions .op-content{}
+    .opinions .op-content p{}
+    .opinions .op-content h6{}
+
+                    /*=== === === === === End Opinions === === === === === === =*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start skills === === === === === === =*/
+
+    .skills{
+    }
+    .skills .separator{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skills .sk-side-label{
+        flex-basis: 100%
+    }
+    .skills .sk-content{
+        flex-basis: calc(var(--xs) * 11);
+    }
+    .skills .sk-content .sk-co-field{
+        flex-basis: calc(var(--xs) * 5);
+    }
+    .skills .sk-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+    }
+    .skills .sk-content .sk-co-field{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 5px 5px 5px;
+    }
+    .skills .sk-content .sk-co-field [class^="sk-co-f-"]{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-basis:80%;
+    }
+    .skills .sk-content .sk-co-field [class^="sk-co-f-"] h4{
+        font-size:calc(var(--h4-font)*1.1);
+        margin-right: 10px;
+    }
+    .skills .sk-content .sk-co-field [class^="sk-co-f-"] div{
+        width:calc(var(--xs)*1.1);
+    }
+
+    .skills .sk-content .sk-co-field [class^="progress-"]{
+        flex-basis:100%;
+    }
+    .skills .sk-content.paragragh{
+        display: block;
+        height: auto;
+    }
+
+                    /*=== === === === === End skills === === === === === === ===*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start story === === === === === === ==*/
+
+    .story{}
+    .story .st-side-label h2{}
+    .story .st-content{
+        display: flex;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    .story .st-content .st-co-field{
+    }
+    .story .st-content .st-co-field p{
+    }
+
+                    /*=== === === === === End story === === === === === === === */
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start pushers === === === === === === */
+
+    .pushers{}
+    .pushers span{
+        text-transform:capitalize;
+        padding-right:calc(var(--xs)*.04);
+    }
+    .pushers strong{
+        text-transform:capitalize;
+        padding-left:calc(var(--xs)*.04);
+    }
+    .pushers .pu-side-label{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .pushers .pu-side-label > *{
+        flex-basis:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*we replaced them with text-align: center to overcome the -- :first-letter -- cancelation */
+    }
+    .pushers .pu-side-label p{/*we replaced h5 with p to overcome the -- space between internal items -- cancelation */
+        min-height:0;
+        height:calc(var(--xs)*1);
+        word-spacing:normal;
+        text-indent:0;
+        text-justify:inter-word;
+    }
+    .pushers .pu-side-label p:first-of-type{
+        margin-top:10px;
+        font-size: calc(var(--p-font)*2);
+    }
+    .pushers .pu-side-label p:nth-of-type(2){
+        margin-top:10px;
+        font-size: calc(var(--p-font)*1.5);
+    }
+    .pushers .pu-side-label p:nth-of-type(3){
+        font-size: calc(var(--p-font)*1);
+    }
+    .pushers .pu-side-label p:nth-of-type(4){
+        font-size: calc(var(--p-font)*1);
+    }
+    .pushers .pu-content{
+        display:flex;
+        justify-content: center;
+    }
+    .pushers .pu-content ul{
+/*        height:calc(var(--xs)*12.5);585px*/
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .pushers .pu-content ul li{
+        font-size: calc(var(--p-font)*1.3);
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        flex-basis:calc(var(--xs)*10.5);/*456*/
+        align-items: center;
+    }
+    .pushers .pu-content p{
+        text-align: center;
+        padding: 10px;
+        text-indent: 0;
+    }
+
+                    /*=== === === === === End pushers === === === === === === ==*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start habits === === === === === === =*/
+
+    .habits{}
+    .habits .ha-side-label{}
+    .habits .ha-content{
+        display:flex;
+        justify-content: center;
+    }
+    .habits .ha-content .ha-co-field{
+        flex-basis:calc(var(--xs)*1.7);/*70*/
+        margin:0 calc(var(--xs)*.4);
+    }
+
+                    /*=== === === === === End habits === === === === === === ===*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                    /*=== === === === === Start footer === === === === === === =*/
+
+    footer{
+/*        margin-top: auto;*/
+    }
+    footer .separator{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .fo-side-label-contacts{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer .fo-side-label-contacts h3{
+        flex-basis: 100%;
+        font-size: calc(var(--h3-font)*.4);
+    }
+    footer .fo-side-label-contacts > div{
+        flex-basis: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer .fo-side-label-contacts > div h2{
+        
+        font-size: calc(var(--h3-font)*.7);
+        flex-basis: calc(var(--xs)*5);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    footer .fo-side-label-contacts > div h2 div{
+        flex-basis:calc(var(--xs)*.6);
+    }
+    footer .fo-content-contacts{
+        flex-basis: calc(var(--xs)*6);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    footer .fo-content-contacts h2{
+        font-size:calc(var(--h2-font)*.5);
+/*        margin-right: 10px*/
+    }
+    footer .fo-content-contacts .contacts-co-field{
+        flex-basis:calc(var(--xs)*1.2);
+/*        margin:0 calc(var(--xs)*.4);*/
+    }
+    footer .fo-content{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    footer .fo-content h6{
+    }
+
+
+                    /*=== === === === === End footer === === === === === === ===*/
+
+                    /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+}
+@media (min-width: 480px) and (max-width: 625px){
+    .header{
+    /* === ForOverlay === */
+/*    height:240px;*/
+    }
+    .header .separator header{
+        flex-basis: 100%;
+    }
+}
+@media (min-width: 626px) and (max-width: 767px){
+    .header{
+    /* === ForOverlay === */
+/*    height:150px;*/
+    }
+    .header .separator header{
+        flex-basis: calc(var(--xs)*12);
+    }
+}
+------------------------------------------------------
+@media (min-width: 480px) and (max-width: 736px){
+    .serv .se-content .se-co-field:nth-of-type(1) p{
+        height:60px;
+    }
+    .serv .se-content .se-co-field:nth-of-type(2) p{
+        height:40px;
+    }
+    .serv .se-content .se-co-field:nth-of-type(3) p{
+        height:80px;
+    }
+}
+@media (min-width: 737px) and (max-width: 767px){
+    .serv .se-content{
+        flex-basis:100%;
+        /*to cancel the effect of the main media ==> (min-width: 480px) and (max-width: 767px)*/
+    }
+    .serv .se-content .se-co-field p{
+        height:80px;
+    }
+}
+------------------------------------------------------
+@media (min-width: 480px) and (max-width: 653px){
+    .skills .sk-content{
+        flex-basis: calc(var(--xs) * 11);
+    }
+}
+@media (min-width: 654px) and (max-width: 767px){
+    .skills .sk-content{
+    flex-basis: calc(var(--xs) * 16);
+    }
+}

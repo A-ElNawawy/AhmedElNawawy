@@ -1,0 +1,510 @@
+body{
+    /*droid arabic kufi*/
+    
+/*    font-family: 'Merienda', cursive;*/
+/*    font-family: 'Pacifico', cursive;*/
+/*    font-family: 'Finger Paint', cursive;*/
+/*    font-family: 'Playfair Display', serif;*/
+/*    font-family: 'Chewy', cursive;*/
+/*    font-family: 'Faster One', cursive;*/
+/*    font-family: 'Vast Shadow', cursive;*/
+/*    font-family: 'Codystar', cursive;*/
+/*    font-family: 'Galada', cursive;*/
+/*    font-family: 'Oleo Script Swash Caps', cursive;*/
+}
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === startRules === === === === === === ==*/
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+}
+::selection{
+        color:#FFF;
+        background-color:#000;
+}
+:root{
+                /*=== === === === === startColors === === === === === === === ===*/
+    
+    --p-color:#657786;
+    --h2-color:#1da1f4;
+    --h3-color:#14171a;
+    --h4-color:#14171a;
+    --h6-color:#1da1f4;
+    --bigfont-color:#14171a;
+    --twitter-color:#1da1f4;
+    --body-color:#e6ecf0;
+    --sidelabel-color:#aab8c2;
+    --mains-color:#f5f8fa;
+/*
+    #f5f8fa
+    #e6ecf0
+    #e1e8ed
+    #aab8c2
+    #657786
+    #1da1f4
+    #1B95E0
+    #14171a
+    
+*/
+}
+body{
+    background-color: var(--body-color);
+    font-family: 'PT Sans', sans-serif;
+    perspective: 500px;
+}
+body > *{
+    background-color: var(--mains-color);
+}
+ul{
+    list-style: none;
+}
+li{
+    
+}
+[class*="-side-label"]{
+/*    background-color: var(--sidelabel-color);*/
+/*    background-color:var(--twitter-color);*/
+/*    padding:10px;*/
+}
+h2{
+    color: var(--h2-color);
+    text-transform: capitalize;
+}   /*center label*/
+h3{
+    color: var(--h3-color);
+}/*side label*/
+h3:first-letter{
+    text-transform: capitalize;
+}/*side label*/
+h4{
+    color: var(--h4-color);
+    text-transform: capitalize;
+}/*paragragh label*/
+h6{
+    color: var(--h6-color);
+}/*signature*/
+h5:first-letter{
+    text-transform: capitalize;
+}
+p{
+    color: var(--p-color);
+}
+p:first-letter{
+    text-transform: capitalize;
+}
+[class*="-content"]{
+}
+[class*="-co-field"]{
+}
+
+                /*=== === === === === End Rules === === === === === === === */
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start Header === === === === === === =*/
+
+.header{
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+}
+.header .over-lay{
+    background-color: #14171aa0;
+/*  rgba(3, 1, 21, .6) rgba(3, 1, 21, 0.65) rgba(3, 1, 21, 0.7) */
+/*    rgba(3, 1, 21, 0.65) #857fb194 #1f012199 rgba(3, 1, 21, 0.7) rgba(29, 3, 3, 0.7) rgba(3, 1, 21, .6)   */
+    
+}
+.header .header-side-label{
+    background-color: transparent;
+}
+.header .header-side-label h2{
+}
+.header .header-side-label p{
+    color: var(--twitter-color);
+}
+
+                /*=== === === === === End Header === === === === === === ===*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start nav === === === === === === === */
+
+nav{
+    background-color:var(--twitter-color);
+}
+nav ul li{
+}
+nav ul li a{
+    color: var(--body-color);
+}
+
+                /*=== === === === === End nav === === === === === === === ==*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+/*
+ .serv{
+     background-image: url(icons/SVG/001-res-mob-gear-linear.svg);
+}
+*/
+
+                /*=== === === === === Start Serv === === === === === === ===*/
+
+.serv{
+}
+.serv .se-side-label{}
+.serv .se-content{}
+.serv .se-content .se-co-field{}
+.serv .se-content .se-co-field h4{
+}
+.serv .se-content .se-co-field:first-of-type h4{
+}
+
+                /*=== === === === === End Serv === === === === === === === =*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start portfolio === === === === === ==*/
+
+.portfolio{}
+.portfolio .po-side-label{}
+.portfolio .po-content{}
+.portfolio .po-content .po-co-field{}
+
+                /*=== === === === === End portfolio === === === === === === */
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start Opinions === === === === === ===*/
+
+.opinions{}
+.opinions .op-side-label{}
+.opinions .op-side-label h5{}
+.opinions .op-side-label h5:nth-of-type(2){}
+.opinions .op-side-label h2{}
+.opinions .op-content{
+}
+.opinions .op-content .op-co-field{
+}
+.opinions .op-content p{
+    font-family: 'Cinzel Decorative', cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+                /*=== === === === === End Opinions === === === === === === =*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start skills === === === === === === =*/
+
+.skills{}
+.skills .sk-side-label{}
+.skills .sk-side-label h5{}
+.skills .sk-side-label h2{}
+.skills .sk-content{
+}
+.skills .sk-content .sk-co-field{
+    border:1px solid var(--bigfont-color);
+}
+.skills .sk-content .sk-co-field [class^="sk-co-f-"]{
+    
+}
+.skills .sk-content .sk-co-field [class^="sk-co-f-"] h4{
+    color: var(--h3-color);
+}
+.skills .sk-content .sk-co-field [class^="sk-co-f-"] div{
+}
+.skills .sk-content .sk-co-field .progress-html .prog-bar{
+    width:90%;
+}
+.skills .sk-content .sk-co-field .progress-css .prog-bar{
+    width:95%;
+}
+.skills .sk-content .sk-co-field .progress-html5 .prog-bar{
+    width:50%;
+}
+.skills .sk-content .sk-co-field .progress-css3 .prog-bar{
+    width:90%;
+}
+.skills .sk-content .sk-co-field .progress-js .prog-bar{
+    width:70%;
+}
+.skills .sk-content .sk-co-field .progress-api .prog-bar{
+    width:10%;
+}
+.skills .sk-content .sk-co-field .progress-jq .prog-bar{
+    width:100%;
+}
+.skills .sk-content .sk-co-field .progress-boot .prog-bar{
+    width:100%;
+}
+.skills .sk-content .sk-co-field .sk-co-f-js h4,.skills .sk-content .sk-co-field .sk-co-f-api h4,.skills .sk-content .sk-co-field [class^="sk-co-f-css"] {
+}
+.skills .sk-content .sk-co-field .sk-co-f-js div,.skills .sk-content .sk-co-field .sk-co-f-api div,.skills .sk-content .sk-co-field [class^="sk-co-f-css"] {
+}
+
+    
+    
+.skills .sk-content .sk-co-field .sk-co-f-html h4{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-css h4{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-html5 h4{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-css3 h4{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-js h4{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-api h4{
+}
+.skills .sk-content .sk-co-field .sk-co-f-jq h4{
+}
+.skills .sk-content .sk-co-field .sk-co-f-boot h4{
+}
+
+
+.skills .sk-content .sk-co-field .sk-co-f-html div{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-css div{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-html5 div{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-css3 div{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-js div{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-api div{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-jq div{
+
+}
+.skills .sk-content .sk-co-field .sk-co-f-boot div{
+
+}
+
+    
+.skills .sk-content .sk-co-field [class^="progress-"]{}
+.skills .sk-content.paragragh a{
+    color: var(--twitter-color);
+}
+
+                /*=== === === === === End skills === === === === === === ===*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start story === === === === === === ==*/
+
+.story{
+    font-family: 'Rye', cursive;
+}
+.story a{
+    color: var(--twitter-color);
+}
+.story .st-side-label h2{}
+.story .st-content{}
+.story .st-content .st-co-field{}
+.story .st-content .st-co-field p{
+    letter-spacing: 0.6px;
+}
+
+                /*=== === === === === End story === === === === === === === */
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start pushers === === === === === === */
+
+.pushers{font-family: 'Rye', cursive;}
+.pushers .pu-side-label{}
+.pushers .pu-side-label strong{
+    color: var(--twitter-color);
+}
+.pushers .pu-side-label p{
+    color: var(--h3-color);
+}
+.pushers .pu-side-label p:first-of-type{}
+.pushers .pu-side-label p:nth-of-type(2){}
+.pushers .pu-side-label p:nth-of-type(3){}
+.pushers .pu-side-label p:nth-of-type(4){}
+.pushers .pu-side-label h2{}
+.pushers .pu-content{}
+.pushers .pu-content ul{}
+.pushers .pu-content ul li{
+    color: var(--p-color) ;
+    font-style:italic;
+}
+.pushers .pu-content p{
+    color: var(--twitter-color);
+}
+.pushers .pu-content ul li:not(:first-of-type):not(:nth-of-type(3)),.pushers .pu-content ul li:first-of-type:first-letter,.pushers .pu-content ul li:nth-of-type(3):first-letter{
+    text-transform: capitalize;
+}
+
+                /*=== === === === === End pushers === === === === === === ==*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start habits === === === === === === =*/
+
+.habits{}
+.habits .ha-side-label{}
+.habits .ha-content{}
+.habits .ha-content .ha-co-field{}
+
+                /*=== === === === === End habits === === === === === === ===*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+                /*=== === === === === Start footer === === === === === === =*/
+
+footer{
+    background-color:var(--twitter-color);
+}
+footer .fo-content{}
+footer .fo-content h6{
+    color: var(--h3-color)
+}
+footer .fo-content-contacts h2{
+    color: var(--h3-color)
+    }
+footer .fo-side-label-contacts h2{
+    color: var(--h3-color);
+    }
+
+                /*=== === === === === End footer === === === === === === ===*/
+
+                /*--- --- --- --- --- --- --- --- --- --- --- --- --- --- --*/
+
+
+                /*=== === === === === Start framWork === === === === === ===*/
+
+hr{
+    margin:20px 0 ;
+    background-color:var(--p-color);
+    height:3px;
+    width:100%;
+}
+.link{
+    font-weight: bold;
+}
+.txt-space-r{
+    margin-right: 5px;
+}
+.txt-space-l{
+    margin-left: 5px;
+}
+.box-decoration{
+    box-shadow: 0px 1px 11px 2px var(--twitter-color);
+    border-radius: 0px 40px 0px 75px;
+}
+.signature{
+    font-family: 'Dancing Script', cursive;
+/*    font-family: 'Cinzel Decorative', cursive;*/
+/*    word-spacing: 2px;*/
+    letter-spacing: 5px;
+    display: flex;
+}
+.capital{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.txt{} /*??????*/
+.fl-l{
+    float:left;
+}
+.clearfix{
+    clear: both;
+}
+.img-responsive{
+    width:100%;
+    height:100%;
+}
+.img-circle{
+    border-radius:50%;
+}
+.img-thumbnail{
+    padding: 3px;
+/*    background-color:#FFF;*/
+    border: 2px dashed var(--twitter-color);
+}
+.over-lay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.border{
+    border:1px solid var(--twitter-color); 
+}
+.auto{
+    margin:auto;
+}
+
+                /*=== === === === === Start ProgressBar === === === === === */
+
+[class^="progress-"]{
+    height: 28px;
+    padding:1px;
+    border: 1px solid var(--p-color);
+}
+[class^="progress-"] .prog-bar{
+    background-color: var(--p-color);
+    color:var(--body-color);
+    height: 100%;
+}
+[class^="progress-"] .prog-bar .percentage{
+/*    text-align:end;*/
+    font-size:118%;
+/*    width:100%;*/
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:1px;
+}
+
+                /*=== === === === === End ProgressBar === === === === === ==*/
+
+                /*=== === === === === End framWork === === === === === === =*/

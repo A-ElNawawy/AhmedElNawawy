@@ -1,0 +1,51 @@
+:root{
+
+                /*=== === === === === fontSizes === === === === === === === ===*/
+        
+    --h2-font:50px;/*center label*/
+    --h3-font:40px;/*side label*/
+    --h4-font:30px;/*paragragh label*/
+    --h5-font:20px;
+    --h6-font:23px;/*signature*/
+    --p-font:20px;
+    
+                /*=== === === === === screenSizes === === === === === === === ===*/
+    
+    --xxs:calc(320px/12);
+    --xs:calc(480px/12);
+/*
+    --xs-2:calc(571px/12);
+    --xs-3:calc(671px/12);
+*/
+    --s:calc(768px/12);
+    --m:calc(992px/12);
+    --l:calc(1200px/12);
+}
+body > *{
+    width: 100%
+}
+h2{
+    font-size:var(--h2-font);
+}/*center labels*/
+h3{
+    font-size: calc(var(--h3-font)*.7);
+}/*side label*/
+h4{
+    font-size: var(--h4-font);
+}/*paragragh label*/
+h6{
+    font-size:var(--h6-font);
+}/*signature*/
+p{
+    font-size: var(--p-font);
+}
+.header{
+    /* === ForOverlay === */
+    width:100%;
+    height: 400px;
+}
+.header .header-side-label section p{
+}
+footer{
+        order:7
+    }

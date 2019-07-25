@@ -1,0 +1,74 @@
+
+
+.container {
+    margin:auto;
+}
+h3{
+    padding-left:10px;
+}
+p{
+    margin-bottom: 15px;
+}
+.separator{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+header > *{
+    display: flex;
+    justify-content: center;
+    text-indent: 0!important;
+    margin-bottom: auto;
+}
+header > *:not(h6){
+    margin-top:13px;
+}
+
+.header{
+    /* === ForOverlay === */
+    position: relative;
+}
+
+.header .separator{
+    align-items: center;
+    justify-content: center;
+}
+.header .header-side-label{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.header .header-side-label section p{
+    display: flex;
+    justify-content: center;
+    padding-left:0px;
+    margin: 0;
+}
+.header .header-side-label section h6{
+    display: flex;
+    justify-content: center;
+}/*signature*/
+
+
+.portfolio .po-content .po-co-field:hover{
+    transform: rotatez(-45deg);
+}
+
+
+.opinions .op-content .op-co-field{
+    display: flex;
+    justify-content: flex-end;
+}
+.opinions .op-content .op-co-field h6{
+/*    padding-right: 10px;*/
+}
+.habits .ha-content{
+    margin-bottom: 10px;
+}
+footer{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 17px;
+    margin-right: 10px;
+    flex-basis: 100%;
+}
