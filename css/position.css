@@ -39,9 +39,9 @@ header > *:not(h6){
     align-content: center;
     justify-content: center;
 }
-/* .header .separator .img{
+.header .separator .img{
     display: none;
-} */
+}
 .header .header-side-label section p{
     display: flex;
     justify-content: center;
