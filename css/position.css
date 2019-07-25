@@ -37,6 +37,7 @@ header > *:not(h6){
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: center;
 }
 .header .separator .img{
     display: none;
