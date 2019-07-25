@@ -38,6 +38,9 @@ header > *:not(h6){
     flex-wrap: wrap;
     align-content: center;
 }
+.header .separator .img{
+    display: none;
+}
 .header .header-side-label section p{
     display: flex;
     justify-content: center;
