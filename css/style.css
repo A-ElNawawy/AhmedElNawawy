@@ -83,7 +83,9 @@
 .hyd-element{
     display: none!important;
 }
-
+.display-non-all, .display-non-all *{
+    display: none;
+}
                 /*=== === === === === Start ProgressBar === === === === === */
 [class^="progress-"]{
     border: 1px solid var(--body-color);
